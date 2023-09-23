@@ -10,7 +10,6 @@
 //     let req = await fetch("https://dummyjson.com/products")
 // }
 
-
 fetch("https://dummyjson.com/products")
 .then((req)=>req.json())
 .then((res)=>console.log(res.products))
